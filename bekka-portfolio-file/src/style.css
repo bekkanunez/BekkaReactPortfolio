@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  } 
+
+ .container {
+  background-color: rebeccapurple;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+
+  nav {
+    background-image: src;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .site-name {
+    font-size: 50px;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    font-size: 25px;
+
+  }
+
+  nav a {
+    text-decoration: none;
+    background: white;
+    color: rebeccapurple;
+    margin: 5px;
+    padding: 0 20px;
+    font-weight: 700;
+    border-bottom: 4px solid rebeccapurple;
+  }
+
+  nav a:hover {
+    background: purple;
+    color: whitesmoke;
+  }
+
+  header {
+    background-image: url('./assets/BFS-Logo.png');
+    /* border: 2px dotted red; */
+    height: 40vh;
+    background-size: auto 100%;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: left;
+  }
+  footer {
+    font-size: 45px;
+    justify-content: center;
+
+  }
+
+  .project-pic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
