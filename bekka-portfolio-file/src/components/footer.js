@@ -6,10 +6,10 @@ function Footer() {
     return (
         <div className="Footer">
             <a href="https://github.com/bekkanunez">
-                <FaGithub size='5rem' />
+                <FaGithub size='5rem'/>
             </a>
             <a href="https://facebook.com/bekkasfunshop">
-                <FaFacebook size='5rem' />
+                <FaFacebook size='5rem'/>
             </a>
         </div>
 

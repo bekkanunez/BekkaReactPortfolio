@@ -6,10 +6,10 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: rgb(42, 5, 79);
   } 
 
  .container {
-  background-color: rebeccapurple;
   color: whitesmoke;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -76,11 +76,50 @@
   footer {
     font-size: 45px;
     justify-content: center;
-
   }
+
+.project {
+  color: white
+}
 
   .project-pic {
     position: relative;
     width: 100%;
     height: 100%;
   }
+
+  .portfolio {
+    width: auto;
+    height: 75px;
+    text-align: left;
+    color: whitesmoke;
+    padding-left: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+.resume-request {
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 100px;
+}
+
+.front-end{
+  color: whitesmoke;
+  list-style: none;
+}
+
+.back-end{
+  color: whitesmoke;
+  list-style: none;
+}
+
+.contact-message {
+  color: whitesmoke;
+}
+
+#contact-form {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+}

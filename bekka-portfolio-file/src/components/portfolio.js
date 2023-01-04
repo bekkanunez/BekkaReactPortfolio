@@ -44,6 +44,7 @@ function Portfolio() {
   
     return (
       <div>
+        <h1 class="portfolio">Portfolio</h1>
         <div className="flex-row">
           {projects.map((project, idx) => (
             <Project

@@ -8,16 +8,13 @@ export default function Project({ project }) {
 
   return (
     <div className="project" key={name}>
-      <img
-        src={require(`/src/assets/${name}.jpg`).default}
-        alt={name}
-        className="project-pic"
-      />
+      <img src={`bekka-portfolio-file/src/assets/${name}.jpg`}
+      alt={name}/>
       <div className="project-text">
         <h3>
           <a href={link}>{name}</a>
           <a href={repo}>
-            <i> <FaGithub size="2rem"/></i>
+            <i> <FaGithub size="2rem" color="white"/></i>
           </a>
         </h3>
         <p>{description}</p>
